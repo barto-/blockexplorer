@@ -1,6 +1,7 @@
 # blockexplorer
 <div align="center">
-  
+
+  [![npm version](https://badge.fury.io/js/blockexplorer.svg)](https://badge.fury.io/js/blockexplorer)
   [![Build Status](https://travis-ci.org/barto-/blockexplorer.svg?branch=master)](https://travis-ci.org/barto-/blockexplorer)
   [![Coverage Status](https://coveralls.io/repos/github/barto-/blockexplorer/badge.svg?branch=master)](https://coveralls.io/github/barto-/blockexplorer?branch=master)
   [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
