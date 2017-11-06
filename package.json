@@ -1,0 +1,40 @@
+{
+  "name": "blockexplorer",
+  "version": "1.0.0",
+  "description": "Unofficial Node.js client for blockexplorer.com API",
+  "main": "blockexplorer.js",
+  "scripts": {
+    "test": "standard && mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barto-/blockexplorer.git"
+  },
+  "keywords": [
+    "blockexplorer",
+    "blockchain",
+    "bitcoin"
+  ],
+  "author": "Marco Bartolucci <marcobartolucci@icloud.com> (https://marcobartolucci.it)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barto-/blockexplorer/issues"
+  },
+  "homepage": "https://github.com/barto-/blockexplorer#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "nock": "^9.0.27",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "engines": {
+    "node": ">=6.11.5"
+  }
+}
